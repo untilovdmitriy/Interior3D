@@ -356,6 +356,23 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23801360852713890, guid: 84f65ef51a4871c4bb71ca7026d68a4f,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -38229966, guid: bdae6b22634a9c04cafbf3f4592b18f9,
+        type: 3}
+    - target: {fileID: 23801360852713890, guid: 84f65ef51a4871c4bb71ca7026d68a4f,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23549465592330932, guid: 84f65ef51a4871c4bb71ca7026d68a4f,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -1280039695, guid: bdae6b22634a9c04cafbf3f4592b18f9,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 84f65ef51a4871c4bb71ca7026d68a4f, type: 2}
   m_IsPrefabParent: 0
@@ -414,6 +431,7 @@ GameObject:
   - component: {fileID: 898131997}
   - component: {fileID: 898132001}
   - component: {fileID: 898132000}
+  - component: {fileID: 898132002}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -512,6 +530,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sensivity: 3
   speed: 3
+--- !u!114 &898132002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 898131995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: d209a9945a63bc447829fc3d6e8bf2af, type: 2}
 --- !u!1 &1481854775
 GameObject:
   m_ObjectHideFlags: 0
