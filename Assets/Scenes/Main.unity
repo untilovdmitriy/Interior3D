@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 1.7
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
@@ -70,7 +70,7 @@ LightmapSettings:
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
-    m_ReflectionCompression: 2
+    m_ReflectionCompression: 1
     m_MixedBakeMode: 2
     m_BakeBackend: 0
     m_PVRSampling: 1
@@ -219,12 +219,12 @@ Prefab:
     - target: {fileID: 224765298819041326, guid: b2b9affe745bab24ea687dc4ea455855,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 397.36694
+      value: 564.86694
       objectReference: {fileID: 0}
     - target: {fileID: 224765298819041326, guid: b2b9affe745bab24ea687dc4ea455855,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 159.01756
+      value: 263.51758
       objectReference: {fileID: 0}
     - target: {fileID: 1599830363775744, guid: b2b9affe745bab24ea687dc4ea455855, type: 2}
       propertyPath: m_IsActive
@@ -398,7 +398,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 431634234}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9eb4581ef366326479a8fdd42edb0819, type: 3}
   m_Name: 

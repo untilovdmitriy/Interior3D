@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bdae6b22634a9c04cafbf3f4592b18f9
-timeCreated: 1511476593
+timeCreated: 1511990436
 licenseType: Free
 SubstanceImporter:
   externalObjects: {}
@@ -166,8 +166,8 @@ SubstanceImporter:
     name: Wood2
     prototypeName: Wood2
     shaderName: 
-    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
+    shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: _NORMALMAP _PARALLAXMAP
     renderQueue: -1
     lightmapFlags: 4
     inputs:
@@ -237,15 +237,15 @@ SubstanceImporter:
           texture: {instanceID: 0}
           scale: {x: 1, y: 1}
           offset: {x: 0, y: 0}
-      - _MetallicGlossMap:
-          texture: {instanceID: 0}
-          scale: {x: 1, y: 1}
-          offset: {x: 0, y: 0}
       - _OcclusionMap:
           texture: {instanceID: 0}
           scale: {x: 1, y: 1}
           offset: {x: 0, y: 0}
       - _ParallaxMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _SpecGlossMap:
           texture: {instanceID: 0}
           scale: {x: 1, y: 1}
           offset: {x: 0, y: 0}
@@ -269,6 +269,7 @@ SubstanceImporter:
       colors:
       - _Color: {r: 1, g: 1, b: 1, a: 1}
       - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     textureParameters:
     - name: Wood2_diffuse
       alphaSource: 6
@@ -302,9 +303,6 @@ SubstanceImporter:
     - shaderProp: _BumpMap
       material: {instanceID: 0}
       baseUID: 1896691948
-    - shaderProp: _MetallicGlossMap
-      material: {instanceID: 0}
-      baseUID: 1896691944
     - shaderProp: _OcclusionMap
       material: {instanceID: 0}
       baseUID: 1896691956
@@ -323,7 +321,7 @@ SubstanceImporter:
     prototypeName: Wood3
     shaderName: 
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
+    shaderKeywords: _NORMALMAP _PARALLAXMAP
     renderQueue: -1
     lightmapFlags: 4
     inputs:
@@ -411,12 +409,12 @@ SubstanceImporter:
       - _DetailNormalMapScale: 1
       - _DstBlend: 0
       - _GlossMapScale: 1
-      - _Glossiness: 0.5
+      - _Glossiness: 0.47
       - _GlossyReflections: 1
-      - _Metallic: 0
+      - _Metallic: 0.049
       - _Mode: 0
-      - _OcclusionStrength: 1
-      - _Parallax: 0.005
+      - _OcclusionStrength: 0.72
+      - _Parallax: 0.0484
       - _SmoothnessTextureChannel: 0
       - _SpecularHighlights: 1
       - _SrcBlend: 1
@@ -1259,7 +1257,8 @@ SubstanceImporter:
     prototypeName: Wood9
     shaderName: 
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
+    shaderKeywords: _GLOSSYREFLECTIONS_OFF _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
+      _SPECULARHIGHLIGHTS_OFF
     renderQueue: -1
     lightmapFlags: 4
     inputs:
@@ -1348,13 +1347,13 @@ SubstanceImporter:
       - _DstBlend: 0
       - _GlossMapScale: 1
       - _Glossiness: 0.5
-      - _GlossyReflections: 1
+      - _GlossyReflections: 0
       - _Metallic: 0
       - _Mode: 0
       - _OcclusionStrength: 1
       - _Parallax: 0.005
       - _SmoothnessTextureChannel: 0
-      - _SpecularHighlights: 1
+      - _SpecularHighlights: 0
       - _SrcBlend: 1
       - _UVSec: 0
       - _ZWrite: 1
